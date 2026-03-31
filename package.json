@@ -1,0 +1,17 @@
+{
+  "name": "llmn_db",
+  "version": "1.0.0",
+  "description": "llamune database migrations",
+  "scripts": {
+    "migrate:up": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down",
+    "migrate:create": "node-pg-migrate create"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-pg-migrate": "*",
+    "pg": "*"
+  }
+}
